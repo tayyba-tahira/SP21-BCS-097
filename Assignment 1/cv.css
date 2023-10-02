@@ -1,0 +1,105 @@
+/* Header */
+#custom-header {
+    position: fixed;
+    z-index: 1;
+    height: 40px;
+    width: 98%;
+    background-color:brown; /* Custom header background color */
+    margin-bottom: 10px;
+}
+#mydp
+{
+   
+    
+    background-color: burlywood;
+}
+
+
+#custom-name {
+    float: left;
+    margin-left: 20px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    font-family: Arial, sans-serif; /* Custom font family */
+    color: #ffffff;
+}
+
+#custom-email {
+    float: right;
+    margin-right: 20px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    font-family: Arial, sans-serif; /* Custom font family */
+    color: #ffffff;
+}
+
+/* Right Content */
+.custom-right {
+    float: left;
+    /*margin-top: 50px;*/
+    padding-left: 5px;
+    height: auto;
+    width: 99%;
+    background-color: #E3EDD8; /* Custom background color */
+}
+
+/* Headings */
+h3 {
+    text-decoration: underline;
+    font-family: Arial, sans-serif; /* Custom font family */
+}
+
+/* Job Responsibilities */
+#custom-job-responsibilities {
+    padding: 1px;
+    font-family: Arial, sans-serif; /* Custom font family */
+}
+
+.job-title {
+    font-weight: bold;
+    font-family: Arial, sans-serif; /* Custom font family */
+}
+
+/* Table */
+table {
+    border: 1px dashed black;
+}
+
+td {
+    padding: 2px;
+    border: 1px solid #E88741;
+}
+
+/* Course Name */
+#custom-course-name {
+    font-weight: bold;
+    font-family: Arial, sans-serif; /* Custom font family */
+}
+
+/* Company Name */
+#custom-company {
+    height: 2px;
+    text-decoration: underline;
+    font-family: Arial, sans-serif; /* Custom font family */
+}
+
+/* Skill Name */
+#custom-skill-name {
+    font-weight: bold;
+    font-family: Arial, sans-serif; /* Custom font family */
+}
+
+/* Info Name */
+#custom-info-name {
+    font-weight: bold;
+    font-family: Arial, sans-serif; /* Custom font family */
+}
+
+/* Footer */
+#custom-footer {
+    height: 40px;
+    clear: both;
+    position: relative;
+    background-color: #C1E3E1; /* Custom footer background color */
+}
+
