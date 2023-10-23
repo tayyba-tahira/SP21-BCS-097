@@ -1,0 +1,216 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Plus+Jakarta+Sans:ital,wght@1,800&display=swap'); 
+
+:root{
+    --primary:#3155e7;
+    --primary-dark:#2045d6;
+    --black:#010101;
+    --gray-1:#788190;
+    --gray-2:#d3d4db;
+    --white:#FFFFFF;
+    --body:#fefefe;
+
+}
+body{
+    font-family: 'Plus Jakarta Sans' sans-serif;
+    background-color: var(--body);
+
+}
+
+
+.btn{
+    border-radius: 8px;
+}
+.btn-primary,
+.btn-outline-secondary{
+    padding: 12px 20px;
+}
+
+.btn-primary{
+    background-color: var(--primary);
+}
+.btn-primary:hover{
+    background-color: var(--primary-dark);
+}
+.btn-outline-secondary{
+    border: ipx solid (--gray-2);
+    color:var(--black);
+}
+
+.btn-outline-secondary:hover{
+    background-color: var(--gray-2) ;
+    border: ipx solid var(--gray-2);
+     color:var(--black);
+}
+
+.btn-outline-secondary:focus{
+    background-color: var(--gray-2) ;
+    border: ipx solid var(--gray-2);
+     color:var(--black);
+}
+.navbar .btn-outline-secondary{
+    border: 1px solid var(--gray-2);
+    color:var(--black);
+    font-size: 14px;
+     font-weight:500 ;
+     line-height: 20px;
+     padding: 10px 16px;
+}
+.navbar{
+    padding: 32px;
+}
+.navbar-link{
+    margin-left: 41px;
+    font-size: 16px;
+   color: var(--gray-1);
+}
+.navbar-nav .navbar-link.active 
+{
+ font-weight:bold ;
+ color: var(--black);
+}
+section.hero{
+    padding: 80px 0;
+}
+
+section.hero  .text{
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 73px;
+    color: var(--black);
+}
+.button{
+    padding-top: 69px;
+}
+
+.button .btn{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+}
+
+section.setup{
+    padding: 287px 0;
+}
+section.setup .text-header h3{
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 48px;
+    color: var(--black);
+}
+section.setup .text-header{
+ 
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: var(--gray-1);
+    padding: 27px 0;
+}
+section.setup .icons{
+    padding: 27px 0;
+}
+section.setup .h5{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--black);
+    padding-bottom: 18px;
+}
+section.setup .desc p{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    color: var(--black);
+    max-width: 284px;
+    margin: 0 auto;
+
+}
+section.information .text-information {
+    padding: 134px 0;
+}
+section .text-information h5{
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 48px;
+    color: var(--black);
+}
+section .text-information h5{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--gray-1);
+    padding-top: 20px;
+}
+
+section.informartion .info1{
+    padding: 183px 0;
+}
+footer{
+    padding-top: 279px;
+    margin-bottom: 44px;
+
+}
+
+footer a{
+
+    font-weight:bold;
+    font-size: 14px;
+    line-height: 18px;
+    color: var(--black);
+}footer .copy{
+    margin-top: 32px;
+    font-size: 14px;
+    line-height: 17px;
+    color: var(--gray-1);
+    font-weight: 400;
+
+}
+@media(max-width :576px)
+{ 
+     section.hero,
+    section.setup,
+    section.information{
+        text-align: center;
+
+    }
+
+    .navbar {
+        padding: 20px 0;
+        
+    }
+    .navbar-link{
+        margin-left: 0;
+    }
+    section.hero{
+        padding-top: 2.5rem;
+    }
+    section.hero.text{
+        font-weight: 800;
+        font-size: 38px;
+        line-height: 53px;
+
+    }
+
+    .bottom .btn{
+        display: block;
+        margin: 1rem 0;
+
+    }
+    .button.btn{
+        display: block;
+        margin: 1rem;
+
+    }
+    .button .ms-3{
+        margin-left: 0 !important;
+    }
+    section.setup{
+        padding: 50px 0;
+    }
+
+    footer{
+        padding-top: 50px;
+        margin-bottom: 44px;
+        
+    }
+}
